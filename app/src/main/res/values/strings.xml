@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Hello Android</string>
     <string name="to">To</string>
     <string name="Message"> Message</string>
     <string name="Subject">Subject</string>
