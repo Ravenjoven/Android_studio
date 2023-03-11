@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="hello">Hello World!</string>
+    <string name="button1">Button1</string>
+    <string name="txtView">TextView</string>
+    <string name="button2">Button2</string>
+    <string name="hint1">To</string>
+    <string name="hint2">Subject</string>
+    <string name="hint3">Message</string>
+    <string name="sendBtn">SEND</string>
+</resources>
