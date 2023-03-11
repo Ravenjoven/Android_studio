@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- display two Button's and a FrameLayout to replace the Fragment's  -->
+    <Button
+        android:id="@+id/firstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_background"
+        android:text="First Fragment"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/secondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/design_default_color_background"
+        android:text="Second Fragment"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.fragexample.FragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="639dp"
+        tools:layout="@layout/fragment_a" />
+</LinearLayout>
+
+
+
+
+
+
+
