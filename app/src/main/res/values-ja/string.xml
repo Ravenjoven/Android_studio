@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name= "app_name"> Hello Android</string>
-    <string name="to">To</string>
-    <string name="Message"> Message</string>
-    <string name="Subject">Subject</string>
-    <string name="Send">Send</string>
-
-</resources>
