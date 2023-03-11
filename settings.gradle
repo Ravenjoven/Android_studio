@@ -16,3 +16,4 @@ rootProject.name = "My Application"
 include ':app'
 include ':activity_4'
 include ':app1'
+include ':Fragment'
