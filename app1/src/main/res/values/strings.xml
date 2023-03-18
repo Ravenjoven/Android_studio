@@ -8,4 +8,6 @@
     <string name="hint2">Subject</string>
     <string name="hint3">Message</string>
     <string name="sendBtn">SEND</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
