@@ -35,7 +35,7 @@ public class HomeFragment extends Fragment {
         @Override
         public void onClick(View v){
         Intent intent = new Intent(getContext(), SecondActivity.class);
-        intent.putExtra( "Pass_Me", "Hi I'm from Main Activity!!");
+        intent.putExtra( "PASS_ME", "Hi I'm from Main Activity!!");
         startActivity(intent);
         }
         });
