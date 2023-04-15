@@ -74,6 +74,9 @@ return root;
             if (deviceHealth == BatteryManager.BATTERY_HEALTH_UNSPECIFIED_FAILURE) {
                 textview.setText(currentBatteryHealth+"= Unspecified Failure");
             }
+            if (deviceHealth == BatteryManager.BATTERY_HEALTH_UNKNOWN) {
+                textview.setText(currentBatteryHealth+"= UnKnown");
+            }
         }
     };
 
